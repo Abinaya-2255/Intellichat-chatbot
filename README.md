@@ -40,6 +40,7 @@ The interface is built on **Cyber-Grid principles**, moving beyond flat design t
     python app.py
     ```
 
+---
 
 ## 📂 Design Evolution
 *As a UX project, this evolved from a simple robot-emoji prototype to a video-integrated interface, finally landing on the high-fidelity Cyber-Grid design showcased here.*
