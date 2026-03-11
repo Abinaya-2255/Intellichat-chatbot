@@ -16,4 +16,4 @@ The UI was built on **Cyber-Grid principles**, utilizing high-contrast neon cyan
 4. Run: `python app.py`
 
 
-<img width="1476" height="852" alt="Image" src="https://github.com/user-attachments/assets/c41df174-a81d-455e-8457-f9b68ce1bd29" />
+<img width="1386" height="808" alt="Image" src="https://github.com/user-attachments/assets/83bcc4d7-0fbe-4ece-9dbc-c881d64ccb40" />
