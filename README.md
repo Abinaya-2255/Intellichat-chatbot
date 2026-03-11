@@ -36,7 +36,8 @@ The interface is built on **Cyber-Grid principles**, moving beyond flat design t
     ```bash
     pip install flask requests
     ```
-5.  **Launch:** ```bash
+5.  **Launch:**
+6.   ```bash
     python app.py
     ```
 
