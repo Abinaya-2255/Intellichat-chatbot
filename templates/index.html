@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTELLICHAT // ADVANCED AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="ai-layout">
+        <div class="robot-panel">
+            <div class="status-tag">ACTIVE</div>
+            <h1>INTELLICHAT</h1>
+            <p class="ai-label">YOUR AI ASSISTANT</p>
+            
+            <div class="video-container">
+                <video autoplay loop muted class="robot-video">
+                    <source src="{{ url_for('static', filename='videos/robot.mp4') }}" type="video/mp4">
+                </video>
+            </div>
+            
+            <p class="subtitle">Next-Gen Intelligence</p>
+        </div>
+
+        <div class="chat-panel">
+            <div id="chatBox"></div>
+            <div class="input-area">
+                <input type="text" id="userMessage" placeholder="Ask IntelliChat..." autocomplete="off">
+                <button id="sendBtn">➤</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
